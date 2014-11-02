@@ -13,6 +13,8 @@
 		41BD83401A01F821006BF14E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BD833F1A01F821006BF14E /* Images.xcassets */; };
 		41BD83431A01F821006BF14E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BD83411A01F821006BF14E /* LaunchScreen.xib */; };
 		41BD834F1A01F821006BF14E /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD834E1A01F821006BF14E /* PostcardTests.swift */; };
+		41BD83591A020070006BF14E /* p1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41BD83581A020070006BF14E /* p1.jpg */; };
+		41BD835B1A020CC7006BF14E /* p2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41BD835A1A020CC7006BF14E /* p2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		41BD83481A01F821006BF14E /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BD834D1A01F821006BF14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41BD834E1A01F821006BF14E /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		41BD83581A020070006BF14E /* p1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p1.jpg; sourceTree = "<group>"; };
+		41BD835A1A020CC7006BF14E /* p2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		41BD83361A01F821006BF14E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41BD835A1A020CC7006BF14E /* p2.jpg */,
+				41BD83581A020070006BF14E /* p1.jpg */,
 				41BD83371A01F821006BF14E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BD835B1A020CC7006BF14E /* p2.jpg in Resources */,
 				41BD833E1A01F821006BF14E /* Main.storyboard in Resources */,
 				41BD83431A01F821006BF14E /* LaunchScreen.xib in Resources */,
+				41BD83591A020070006BF14E /* p1.jpg in Resources */,
 				41BD83401A01F821006BF14E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
