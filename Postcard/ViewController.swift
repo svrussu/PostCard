@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
-        
+        //here is a little comment to test commits
         messageLabel.text = nameTextField.text + " " + messageTextField.text;
         messageLabel.hidden = false;
         messageTextField.resignFirstResponder();
